@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-content{
+  width: 85%;
+  height: 95%;
+  display: flex;
+}
+
+/* blocco gruppo chat */
+.chat-group{
+  width: 30%;
+  height: 100%;
+}
+
+.setting-chat{
+  width: 100%;
+  height: 25%;
+  background-color: black;
+}
+
+.other-chat{
+  width: 100%;
+  height: 75%;
+  background-color: white;
+}
+
+/* blocco conversazione */
+.chat{
+  width: 70%;
+  height: 100%;
+  background-color: green;
+}
+
+/* dettagli chat */
+.chat-details{
+  width: 100%;
+  height: 10%;
+  background-color: grey;
+}
+
+/* corpo chat */
+.chat-user{
+  width: 100%;
+  height: 80%;
+  background-color: blue;
+}
+
+/* messaggio */
+.chat-txt{
+  width: 100%;
+  height: 10%;
+  background-color: yellow;
+}
