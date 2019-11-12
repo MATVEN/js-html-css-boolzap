@@ -35,19 +35,40 @@
 .profile-setting{
   width: 100%;
   height: 35%;
-  background-color: green;
+  background-color: #eee;
+  border-right: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .alert-notice{
   width: 100%;
   height: 42.5%;
-  background-color: black;
+  background-color: #9de1fe;
+  display: flex;
+  align-items: center;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#get-notice{
+  font-size: 12px;
+}
+
+#active-notice{
+  font-size: 10.5px;
+  color: grey;
 }
 
 .search-bar{
   width: 100%;
   height: 22.5%;
-  background-color: brown;
+  background-color: #efefef;
 }
 
 /* blocco altre chat */
@@ -60,33 +81,39 @@
 .selection-chat{
   width: 100%;
   height: 12.5%;
-  border-top: 1px solid black;
+  border-top: 1px solid lightgrey;
 }
 
 /* blocco conversazione */
 .chat{
   width: 70%;
   height: 100%;
-  background-color: green;
 }
 
 /* dettagli chat */
 .chat-details{
   width: 100%;
   height: 9%;
-  background-color: grey;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* corpo chat */
 .chat-user{
   width: 100%;
   height: 82.5%;
-  background-color: blue;
+  background-image: url(../img/sfondo.jpg);
+  background-size: cover;
 }
 
 /* messaggio */
 .chat-txt{
   width: 100%;
   height: 8.5%;
-  background-color: yellow;
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
