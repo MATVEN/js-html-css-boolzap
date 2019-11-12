@@ -25,16 +25,42 @@
   height: 100%;
 }
 
+/* blocco impostazioni della chat */
 .setting-chat{
   width: 100%;
   height: 25%;
   background-color: black;
 }
 
+.profile-setting{
+  width: 100%;
+  height: 35%;
+  background-color: green;
+}
+
+.alert-notice{
+  width: 100%;
+  height: 42.5%;
+  background-color: black;
+}
+
+.search-bar{
+  width: 100%;
+  height: 22.5%;
+  background-color: brown;
+}
+
+/* blocco altre chat */
 .other-chat{
   width: 100%;
   height: 75%;
   background-color: white;
+}
+
+.selection-chat{
+  width: 100%;
+  height: 12.5%;
+  border-top: 1px solid black;
 }
 
 /* blocco conversazione */
@@ -47,20 +73,20 @@
 /* dettagli chat */
 .chat-details{
   width: 100%;
-  height: 10%;
+  height: 9%;
   background-color: grey;
 }
 
 /* corpo chat */
 .chat-user{
   width: 100%;
-  height: 80%;
+  height: 82.5%;
   background-color: blue;
 }
 
 /* messaggio */
 .chat-txt{
   width: 100%;
-  height: 10%;
+  height: 8.5%;
   background-color: yellow;
 }
