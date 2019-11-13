@@ -21,7 +21,7 @@
 
 /* blocco gruppo chat */
 .chat-group{
-  width: 30%;
+  width: 35%;
   height: 100%;
 }
 
@@ -130,7 +130,7 @@
 
 /* blocco conversazione */
 .chat{
-  width: 70%;
+  width: 65%;
   height: 100%;
 }
 
@@ -149,8 +149,14 @@
 #chat-user{
   width: 100%;
   height: 82.5%;
+  justify-content: flex-end;
   background-image: url(../img/sfondo.jpg);
   background-size: cover;
+}
+
+/* template */
+#template{
+  display: none;
 }
 
 /* messaggio */
@@ -191,12 +197,10 @@
 
 /* style js */
 .msg-sent{
-
-  border-radius: 2px;
-  background-color: white;
+  max-width: 50%;
+  border-radius: 5px;
+  background-color: #DCF8C6;
   padding: 5px;
-  margin-bottom: 7px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  margin: 0px 6px 6px 6px;
+  display: inline-block;
 }

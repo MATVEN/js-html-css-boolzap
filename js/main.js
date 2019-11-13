@@ -4,12 +4,12 @@ $ (document).ready(function() {
 
     var msg = $('.message').val();
 
+    var msgElement = $('#template .msg-sent').clone();
 
-    $('#chat-user').append(
+    var msgTxtElement = msgElement.text(msg)
+    $('#chat-user').append(msgTxtElement);
 
-      '<div class="msg-sent">' + msg + '</div>'
-      
-    );
+    $('.message').val('');
 
   })
 
