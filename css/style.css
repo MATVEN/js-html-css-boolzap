@@ -32,9 +32,20 @@
   background-color: black;
 }
 
+.fa-user-size{
+  font-size: 37px;
+}
+
+.fa-size{
+  padding: 0px 5px;
+  font-size: 16px;
+  color: grey;
+}
+
 .profile-setting{
   width: 100%;
   height: 35%;
+  padding: 0px 15px;
   background-color: #eee;
   border-right: 1px solid grey;
   display: flex;
@@ -45,12 +56,25 @@
 .alert-notice{
   width: 100%;
   height: 42.5%;
+  padding: 0px 12px;
   background-color: #9de1fe;
   display: flex;
   align-items: center;
 }
 
-.box{
+.icon{
+  padding: 9px;
+  background-color: white;
+  border-radius: 100%;
+}
+.fa-bell-size{
+  font-size: 17px;
+  color: #9de1fe;
+}
+
+.box p{
+  margin: 0;
+  padding-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,6 +82,7 @@
 
 #get-notice{
   font-size: 12px;
+  align-items: center;
 }
 
 #active-notice{
@@ -77,7 +102,9 @@
 .search-bar input{
   width: 95%;
   height: 75%;
+  padding-left: 10px;
   border: none;
+  border-radius: 2px;
   font-size: 12px;
 }
 
@@ -91,9 +118,14 @@
 .selection-chat{
   width: 100%;
   height: 12.5%;
+  padding: 0 12px;
   border-top: 1px solid lightgrey;
   display: flex;
   align-items: center;
+}
+
+.fa-user-selection{
+  font-size: 42px;
 }
 
 /* blocco conversazione */
@@ -106,6 +138,7 @@
 .chat-details{
   width: 100%;
   height: 9%;
+  padding: 0px 15px;
   background-color: #eee;
   display: flex;
   justify-content: space-between;
@@ -140,6 +173,13 @@
 .txt-box input{
     width: 100%;
     height: 70%;
+    padding-left: 10px;
+    border-radius: 2px;
     border: none;
     font-size: 13px;
+}
+
+.fa-box-size{
+  padding: 0px 20px;
+  font-size: 20px;
 }
