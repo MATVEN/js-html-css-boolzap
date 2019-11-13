@@ -146,7 +146,7 @@
 }
 
 /* corpo chat */
-.chat-user{
+#chat-user{
   width: 100%;
   height: 82.5%;
   background-image: url(../img/sfondo.jpg);
@@ -179,7 +179,24 @@
     font-size: 13px;
 }
 
+.send-msg{
+  background: none;
+  border: none;
+}
+
 .fa-box-size{
   padding: 0px 20px;
   font-size: 20px;
+}
+
+/* style js */
+.msg-sent{
+
+  border-radius: 2px;
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
