@@ -4,14 +4,33 @@ $ (document).ready(function() {
 
     var msg = $('.message').val();
 
-    var msgElement = $('#template .msg-sent').clone();
+    var msgElement = $('#template .msg-container').clone();
 
-    var msgTxtElement = msgElement.text(msg)
-    $('#chat-user').append(msgTxtElement);
+    msgElement.addClass('send');
+
+    msgElement.find('.msg-box').text(msg);
+
+    //var msgTxtElement = msgElement.text(msg);
+
+    $('.chat-user').append(msgElement);
 
     $('.message').val('');
 
-  })
+    // risposta automatica PC
 
+    var msgElement = $('#template .msg-container').clone();
+
+    setTimeout(function () {
+
+      msgElement.addClass('received');
+
+      msgElement.find('.msg-box').text('ok');
+
+      $('.chat-user').append(msgElement);
+
+
+
+    }, 1000)
+  })
 
 })

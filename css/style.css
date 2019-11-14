@@ -99,8 +99,16 @@
   align-items: center;
 }
 
+.search-bar i{
+  height: 75%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .search-bar input{
-  width: 95%;
+  width: 85%;
   height: 75%;
   padding-left: 10px;
   border: none;
@@ -146,10 +154,10 @@
 }
 
 /* corpo chat */
-#chat-user{
+.chat-user{
   width: 100%;
-  height: 82.5%;
-  justify-content: flex-end;
+  height: calc(100% - 95px);
+  overflow: auto;
   background-image: url(../img/sfondo.jpg);
   background-size: cover;
 }
@@ -196,11 +204,34 @@
 }
 
 /* style js */
-.msg-sent{
+.msg-container{
+  width: 100%;
+  display: flex;
+  word-wrap: break-word;
+}
+
+.msg-box{
   max-width: 50%;
   border-radius: 5px;
-  background-color: #DCF8C6;
   padding: 5px;
-  margin: 0px 6px 6px 6px;
-  display: inline-block;
+  margin-top: 7px;
+  justify-content: flex-end;
+}
+
+.send{
+  justify-content: flex-end;
+}
+
+.send > .msg-box{
+  background-color: #DCF8C6;
+  margin: 10px;
+}
+
+.received {
+  justify-content: flex-start;
+}
+
+.received > .msg-box {
+  background-color: #eee;
+  margin: 10px;
 }
