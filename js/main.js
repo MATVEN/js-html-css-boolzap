@@ -1,3 +1,5 @@
+// funzione di messaggistica con risposta automatica
+
 $ (document).ready(function() {
 
   $('.send-msg').click(function () {
@@ -28,9 +30,13 @@ $ (document).ready(function() {
 
       $('.chat-user').append(msgElement);
 
-
-
     }, 1000)
   })
+
+})
+
+// funzione di ricerca chat utenti
+
+$('.search-bar').keyup(function (event) {
 
 })
