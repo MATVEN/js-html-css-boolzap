@@ -132,8 +132,9 @@
   align-items: center;
 }
 
-.fa-user-selection{
-  font-size: 42px;
+.avatar{
+  width: 50px;
+  border-radius: 100%;
 }
 
 /* blocco conversazione */
@@ -160,6 +161,11 @@
   overflow: auto;
   background-image: url(../img/sfondo.jpg);
   background-size: cover;
+  display: none;
+}
+
+.active{
+  display: block !important;
 }
 
 /* template */
@@ -234,4 +240,9 @@
 .received > .msg-box {
   background-color: #eee;
   margin: 10px;
+}
+
+
+.is-active{
+  background-color: red;
 }
