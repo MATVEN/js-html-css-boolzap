@@ -157,7 +157,7 @@
 /* corpo chat */
 .chat-user{
   width: 100%;
-  height: calc(100% - 95px);
+  height: 82.5%;
   overflow: auto;
   background-image: url(../img/sfondo.jpg);
   background-size: cover;
@@ -216,7 +216,7 @@
   word-wrap: break-word;
 }
 
-.msg-box{
+.msg-body{
   max-width: 50%;
   border-radius: 5px;
   padding: 5px;
@@ -228,7 +228,7 @@
   justify-content: flex-end;
 }
 
-.send > .msg-box{
+.send > .msg-body{
   background-color: #DCF8C6;
   margin: 10px;
 }
@@ -237,12 +237,17 @@
   justify-content: flex-start;
 }
 
-.received > .msg-box {
+.received > .msg-body {
   background-color: #eee;
   margin: 10px;
 }
 
 
 .is-active{
-  background-color: red;
+  background-color: lightgrey
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
 }

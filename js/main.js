@@ -71,14 +71,21 @@ $('.selection-chat').click(function() {
 
   $('.chat-user').eq(position).addClass('active');
 
-})
+  var image = $(this).find('.avatar').attr('src')
+
+  $('.chat-details .icon-user .avatar').attr('src', image)
+});
 
 // funzione per eliminare un messaggio
-$('.msg-box').dbclick(function() {
 
-  var msgClick = $(this);
+  $(document).on('click','.msg-box', function() {
+    console.log('ok');
 
-  $('.msg-box').toggle()
+    $(this).parent().find('.dropdown-content').toggle();
+  })
 
+  $(document).on('click','.delete', function() {
 
-})
+    $(this).parents('.msg-container').remove();
+
+  })
