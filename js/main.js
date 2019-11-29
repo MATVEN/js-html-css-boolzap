@@ -44,7 +44,7 @@ $('.search-contact').keyup(function(event){
   // each per ciclare e trovare
   $('.selection-chat').each(function () {
 
-    // variabile pe nome cercato
+    // variabile per nome cercato
     var nameSearchFor = $(this).find('.user-name').text().toLowerCase();
 
     // condition
