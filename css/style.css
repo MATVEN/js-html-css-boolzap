@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  background: linear-gradient(180deg, rgba(46,189,137,1) 100px, rgba(255,255,255,1) 100px);
+  background-repeat: no-repeat;
+}
+
 .container{
   width: 100%;
   height: 100vh;
-  background-color: #06d755;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -242,12 +246,19 @@
   margin: 10px;
 }
 
-
 .is-active{
-  background-color: lightgrey
+  background-color: lightgrey;
 }
 
 .dropdown-content{
   display: none;
   position: absolute;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: khaki;
+}
+
+.delete{
+  list-style-type: none;
+  font-size: 12px;
 }
